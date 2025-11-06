@@ -15,10 +15,11 @@
 以下文档在两个项目中完全相同或高度相似，因此统一管理在此处：
 
 - **[LICENSE](./LICENSE)** - Apache License 2.0 开源协议
+- **[GETTING_STARTED.md](./GETTING_STARTED.md)** - 快速开始指南（包含 Web 应用、小程序、Python 脚本的完整教程）
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - 生产环境部署指南（包含两个项目的部署说明）
 - **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)** - 社区行为准则
 - **[CONTRIBUTING.md](./CONTRIBUTING.md)** - 贡献指南（通用版本）
 - **[AUTHORS.md](./AUTHORS.md)** - 贡献者名单
-- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - 生产环境部署指南（包含两个项目的部署说明）
 
 ## 📋 如何在项目中使用
 
@@ -119,7 +120,6 @@ ln -s ../verse-doc/DEPLOYMENT.md DEPLOYMENT.md
 以下文档包含项目特定内容，保留在各项目目录中：
 
 - `README.md` - 项目说明和快速开始
-- `GETTING_STARTED.md` - 项目特定的快速开始指南
 - `SECURITY.md` - 项目特定的安全配置说明
 - `CHANGELOG.md` - 项目特定的变更历史
 - `FAQ.md` - 项目特定的常见问题
@@ -138,10 +138,11 @@ ln -s ../verse-doc/DEPLOYMENT.md DEPLOYMENT.md
 ```
 verse-doc/
 ├── LICENSE              # Apache 2.0 许可证
+├── GETTING_STARTED.md   # 快速开始指南（包含所有子项目）
+├── DEPLOYMENT.md        # 部署指南（包含所有子项目）
 ├── CODE_OF_CONDUCT.md   # 行为准则
 ├── CONTRIBUTING.md      # 贡献指南（通用）
 ├── AUTHORS.md           # 贡献者名单
-├── DEPLOYMENT.md        # 部署指南
 └── README.md            # 本文件
 ```
 
