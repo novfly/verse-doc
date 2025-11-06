@@ -103,23 +103,23 @@ docker-compose up -d
 
 1. **创建数据库**
 
-```sql
-CREATE DATABASE `TangPoems` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-```
+   ```sql
+   CREATE DATABASE `TangPoems` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   ```
 
 2. **导入数据**
 
-```bash
-mysql -u root -p TangPoems < db/dump-nextJS-202401290617.sql
-```
+   ```bash
+   mysql -u root -p TangPoems < db/dump-nextJS-202401290617.sql
+   ```
 
 3. **创建用户（可选）**
 
-```sql
-CREATE USER 'app_user'@'localhost' IDENTIFIED BY 'your_password';
-GRANT ALL PRIVILEGES ON TangPoems.* TO 'app_user'@'localhost';
-FLUSH PRIVILEGES;
-```
+   ```sql
+   CREATE USER 'app_user'@'localhost' IDENTIFIED BY 'your_password';
+   GRANT ALL PRIVILEGES ON TangPoems.* TO 'app_user'@'localhost';
+   FLUSH PRIVILEGES;
+   ```
 
 ### 数据库连接配置
 
